@@ -1,0 +1,370 @@
+[
+    {
+        "id": "problem_001",
+        "title": "1. Hello World",
+        "description": "Write a program that prints Hello, World! to the console.",
+        "inputFormat": "No input is needed.",
+        "outputFormat": "Output should be the text Hello, World!",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "N/A",
+                "output": "Hello, World!"
+            }
+        ],
+        "constraints": "None"
+    },
+    {
+        "id": "problem_002",
+        "title": "2. Sum of Two Numbers",
+        "description": "Given two integers, return their sum.",
+        "inputFormat": "The first line contains the first integer. The second line contains the second integer.",
+        "outputFormat": "Return a single integer: the sum of the two numbers.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "5\n3",
+                "output": "8"
+            },
+            {
+                "input": "10\n15",
+                "output": "25"
+            }
+        ],
+        "constraints": "1 <= a, b <= 10^9"
+    },
+    {
+        "id": "problem_003",
+        "title": "3. Palindrome Check",
+        "description": "Given a string, determine if it is a palindrome.",
+        "inputFormat": "A single string, s (1 <= s.length <= 100).",
+        "outputFormat": "Return 'true' if s is a palindrome, 'false' otherwise.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "racecar",
+                "output": "true"
+            },
+            {
+                "input": "hello",
+                "output": "false"
+            }
+        ],
+        "constraints": "The string consists of lowercase English letters."
+    },
+    {
+        "id": "problem_004",
+        "title": "4. Fibonacci Sequence",
+        "description": "Write a function that returns the nth Fibonacci number.",
+        "inputFormat": "A single integer n (0 <= n <= 30).",
+        "outputFormat": "Return the nth Fibonacci number.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "0",
+                "output": "0"
+            },
+            {
+                "input": "1",
+                "output": "1"
+            },
+            {
+                "input": "5",
+                "output": "5"
+            }
+        ],
+        "constraints": "None"
+    },
+    {
+        "id": "problem_005",
+        "title": "5. Find the Maximum Element",
+        "description": "Given an array of integers, find the maximum element.",
+        "inputFormat": "The first line contains an integer n (1 <= n <= 100). The second line contains n space-separated integers.",
+        "outputFormat": "Return the maximum integer in the array.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "5\n1 2 3 4 5",
+                "output": "5"
+            },
+            {
+                "input": "4\n-1 -2 -3 -4",
+                "output": "-1"
+            }
+        ],
+        "constraints": "None"
+    },
+    {
+        "id": "problem_006",
+        "title": "6. Count Vowels",
+        "description": "Count the number of vowels in a given string.",
+        "inputFormat": "A single string, s (1 <= s.length <= 100).",
+        "outputFormat": "Return the number of vowels in the string.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "hello",
+                "output": "2"
+            },
+            {
+                "input": "programming",
+                "output": "3"
+            }
+        ],
+        "constraints": "The string consists of lowercase English letters."
+    },
+    {
+        "id": "problem_007",
+        "title": "7. Reverse a String",
+        "description": "Write a function that reverses a string.",
+        "inputFormat": "A single string, s (1 <= s.length <= 100).",
+        "outputFormat": "Return the reversed string.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "hello",
+                "output": "olleh"
+            },
+            {
+                "input": "world",
+                "output": "dlrow"
+            }
+        ],
+        "constraints": "The string consists of lowercase English letters."
+    },
+    {
+        "id": "problem_008",
+        "title": "8. Calculate Factorial",
+        "description": "Given a non-negative integer n, calculate its factorial.",
+        "inputFormat": "A single integer n (0 <= n <= 20).",
+        "outputFormat": "Return n! (n factorial).",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "5",
+                "output": "120"
+            },
+            {
+                "input": "0",
+                "output": "1"
+            }
+        ],
+        "constraints": "None"
+    },
+    {
+        "id": "problem_009",
+        "title": "9. Check for Anagrams",
+        "description": "Given two strings, determine if they are anagrams of each other.",
+        "inputFormat": "Two strings, s1 and s2 (1 <= s1.length, s2.length <= 100).",
+        "outputFormat": "Return 'true' if they are anagrams, 'false' otherwise.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "listen\nsilent",
+                "output": "true"
+            },
+            {
+                "input": "hello\nworld",
+                "output": "false"
+            }
+        ],
+        "constraints": "The strings consist of lowercase English letters."
+    },
+    {
+        "id": "problem_010",
+        "title": "10. Merge Two Sorted Arrays",
+        "description": "Given two sorted arrays, merge them into a single sorted array.",
+        "inputFormat": "The first line contains the size of the first array, followed by its elements. The second line contains the size of the second array, followed by its elements.",
+        "outputFormat": "Return the merged sorted array.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "3\n1 3 5\n2\n2 4",
+                "output": "1 2 3 4 5"
+            },
+            {
+                "input": "2\n1 2\n3\n3 4 5",
+                "output": "1 2 3 4 5"
+            }
+        ],
+        "constraints": "The lengths of the arrays are within the range of 1 to 100."
+    },
+    {
+        "id": "problem_011",
+        "title": "11. Remove Duplicates from Sorted Array",
+        "description": "Given a sorted array, remove the duplicates in-place such that each element appears only once.",
+        "inputFormat": "A sorted array of integers.",
+        "outputFormat": "Return the array with duplicates removed.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "1 1 2",
+                "output": "1 2"
+            },
+            {
+                "input": "0 0 1 1 1 2",
+                "output": "0 1 2"
+            }
+        ],
+        "constraints": "The array will have at most 10^4 elements."
+    },
+    {
+        "id": "problem_012",
+        "title": "12. Longest Substring Without Repeating Characters",
+        "description": "Given a string, find the length of the longest substring without repeating characters.",
+        "inputFormat": "A string s (1 <= s.length <= 1000).",
+        "outputFormat": "Return the length of the longest substring without repeating characters.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "abcabcbb",
+                "output": "3"
+            },
+            {
+                "input": "bbbbb",
+                "output": "1"
+            }
+        ],
+        "constraints": "The string consists of English letters, digits, symbols, and spaces."
+    },
+    {
+        "id": "problem_013",
+        "title": "13. Merge Intervals",
+        "description": "Given a collection of intervals, merge all overlapping intervals.",
+        "inputFormat": "An array of intervals, where each interval is represented by a pair of integers.",
+        "outputFormat": "Return an array of merged intervals.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "[[1,3], [2,6], [8,10], [15,18]]",
+                "output": "[[1,6], [8,10], [15,18]]"
+            },
+            {
+                "input": "[[1,4], [4,5]]",
+                "output": "[[1,5]]"
+            }
+        ],
+        "constraints": "The input array will have at most 10^4 intervals."
+    },
+    {
+        "id": "problem_014",
+        "title": "14. Group Anagrams",
+        "description": "Given a list of strings, group the anagrams together.",
+        "inputFormat": "A list of strings.",
+        "outputFormat": "Return a list of lists, where each list contains all anagrams.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "[\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]",
+                "output": "[[\"eat\", \"tea\", \"ate\"], [\"tan\", \"nat\"], [\"bat\"]]"
+            }
+        ],
+        "constraints": "All input strings are lowercase."
+    },
+    {
+        "id": "problem_015",
+        "title": "15. First Missing Positive",
+        "description": "Given an unsorted integer array, find the smallest missing positive integer.",
+        "inputFormat": "A list of integers.",
+        "outputFormat": "Return the smallest missing positive integer.",
+        "Difficulty": "Hard",
+        "examples": [
+            {
+                "input": "[3, 4, -1, 1]",
+                "output": "2"
+            },
+            {
+                "input": "[1, 2, 0]",
+                "output": "3"
+            }
+        ],
+        "constraints": "The array can contain duplicates and negative numbers."
+    },
+    {
+        "id": "problem_016",
+        "title": "16. Container With Most Water",
+        "description": "Given an array of heights, find two lines that together with the x-axis form a container that holds the most water.",
+        "inputFormat": "An array of integers representing heights.",
+        "outputFormat": "Return the maximum amount of water a container can hold.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "[1,8,6,2,5,4,8,3,7]",
+                "output": "49"
+            }
+        ],
+        "constraints": "At least two heights."
+    },
+    {
+        "id": "problem_017",
+        "title": "17. Trapping Rain Water",
+        "description": "Given n non-negative integers representing an elevation map, calculate how much water it can trap after raining.",
+        "inputFormat": "An array of non-negative integers.",
+        "outputFormat": "Return the amount of trapped water.",
+        "Difficulty": "Hard",
+        "examples": [
+            {
+                "input": "[0,1,0,2,1,0,1,3,2,1,2,1]",
+                "output": "6"
+            }
+        ],
+        "constraints": "The array length is at least 2."
+    },
+    {
+        "id": "problem_018",
+        "title": "18. Valid Parentheses",
+        "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+        "inputFormat": "A string of parentheses characters.",
+        "outputFormat": "Return true if valid, otherwise false.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "\"()\"",
+                "output": "true"
+            },
+            {
+                "input": "\"(]\"",
+                "output": "false"
+            }
+        ],
+        "constraints": "The string will have at most 10^4 characters."
+    },
+    {
+        "id": "problem_019",
+        "title": "19. Roman to Integer",
+        "description": "Convert a roman numeral to an integer.",
+        "inputFormat": "A string representing a Roman numeral.",
+        "outputFormat": "Return an integer.",
+        "Difficulty": "Easy",
+        "examples": [
+            {
+                "input": "\"III\"",
+                "output": "3"
+            },
+            {
+                "input": "\"IV\"",
+                "output": "4"
+            }
+        ],
+        "constraints": "The input will be within the range of 1 to 3999."
+    },
+    {
+        "id": "problem_020",
+        "title": "20. Integer to Roman",
+        "description": "Convert an integer to a Roman numeral.",
+        "inputFormat": "An integer within the range of 1 to 3999.",
+        "outputFormat": "Return a Roman numeral as a string.",
+        "Difficulty": "Medium",
+        "examples": [
+            {
+                "input": "3",
+                "output": "\"III\""
+            },
+            {
+                "input": "4",
+                "output": "\"IV\""
+            }
+        ],
+        "constraints": "1 <= num <= 3999"
+    }
+]
